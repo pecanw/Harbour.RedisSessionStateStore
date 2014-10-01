@@ -68,6 +68,9 @@ protected void Application_End()
 Changelog
 ---------
 
+### v1.4.0
+- Upgrade of ServiceStack.Redis to 4.0+
+
 ### v1.3.0
 - Use a distributed lock rather than the WATCH/UNWATCH pattern because
   it was causing issues.
